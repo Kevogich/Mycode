@@ -1,5 +1,7 @@
 using System;
-
+///Summary
+///this example shows how to use interface in C#
+///Summary
 interface IMyInterface
 {
     // 接口成员
