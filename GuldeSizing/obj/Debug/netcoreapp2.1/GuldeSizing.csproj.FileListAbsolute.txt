@@ -1,0 +1,11 @@
+E:\Github\Mycode\GuldeSizing\obj\Debug\netcoreapp2.1\GuldeSizing.csprojAssemblyReference.cache
+E:\Github\Mycode\GuldeSizing\obj\Debug\netcoreapp2.1\GuldeSizing.csproj.CoreCompileInputs.cache
+E:\Github\Mycode\GuldeSizing\obj\Debug\netcoreapp2.1\GuldeSizing.AssemblyInfoInputs.cache
+E:\Github\Mycode\GuldeSizing\obj\Debug\netcoreapp2.1\GuldeSizing.AssemblyInfo.cs
+E:\Github\Mycode\GuldeSizing\bin\Debug\netcoreapp2.1\GuldeSizing.deps.json
+E:\Github\Mycode\GuldeSizing\bin\Debug\netcoreapp2.1\GuldeSizing.runtimeconfig.json
+E:\Github\Mycode\GuldeSizing\bin\Debug\netcoreapp2.1\GuldeSizing.runtimeconfig.dev.json
+E:\Github\Mycode\GuldeSizing\bin\Debug\netcoreapp2.1\GuldeSizing.dll
+E:\Github\Mycode\GuldeSizing\bin\Debug\netcoreapp2.1\GuldeSizing.pdb
+E:\Github\Mycode\GuldeSizing\obj\Debug\netcoreapp2.1\GuldeSizing.dll
+E:\Github\Mycode\GuldeSizing\obj\Debug\netcoreapp2.1\GuldeSizing.pdb
