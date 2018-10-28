@@ -7,6 +7,7 @@ namespace LiquidSizing {
             Console.WriteLine ("----------START Liquid Sizing----------");
             #region Data Input
             double Q = 360; //Flow rate unit:m3/h
+            double W; // Mass Flow rate unit kg/h, for liquid fluid W = Q * Density 
             double P1 = 680; //Inlet Pressure unit:kPa;
             double P2 = 220; //Outlet pressure unit:kPa;
             double T1 = 363; //Inlet temperature, unit:K;
@@ -18,7 +19,6 @@ namespace LiquidSizing {
             double Pv = 70.1; //Vapour pressure, unit kPa;
             double Pc = 22120; //Thermodynamic critical pressure, unit kPa;
             double v = .000000326; //Kinematic viscosity, unit: m2/s;
-            v=.00000326;
 
             string Manufacturer = "Gulde"; //set Gulde brand as the default brand for sizing
             string BodyStyle = "Globe"; //Globe is default;
