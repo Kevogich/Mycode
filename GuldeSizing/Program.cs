@@ -102,7 +102,7 @@ namespace LiquidSizing {
             #region Calculated valve flow rate, Ccal，unit : m3/h
             double Ccal; //calculated valve flow rate
             Ccal = Q / N1 / Fp * Math.Sqrt (Density / Density0 / DeltaPsizing);
-            Console.WriteLine ("Kv = " + Ccal);
+            Console.WriteLine ("Kv = " + Ccal+" m3/h");
             if (Ccal < C) {
                 Console.WriteLine ("The calculated flow rate is less than the Valve rated flow rate");
             } else {
