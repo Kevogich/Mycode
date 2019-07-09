@@ -9,7 +9,7 @@ namespace GasSizing
         {
             #region Data Input
             double Qs = 169900; //Flow rate unit:m3/h
-            double W = 0;//Qs*.04475*44.01; //Mass flow rate W=Qs*N8/N9*M unit:Kg/h
+            double W = Qs * .04475 * 44.01; //Mass flow rate W=Qs*N8/N9*M unit:Kg/h
 
             double P1 = 1480; //Inlet Pressure unit:kPa;
             double P2 = 446; //Outlet pressure unit:kPa;
@@ -232,7 +232,7 @@ namespace GasSizing
                 }
                 #endregion
 
-                #region Calculated valve flow rate, CcalÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢unit : m3/h
+                #region Calculated valve flow rate, CcalÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢unit : m3/h
                 Ccal = Qs / N22 / Fr / Y * Math.Sqrt(M * T1 / (P1 + P2) / DeltaP);
                 Console.WriteLine("Kv = " + Ccal);
                 if (Ccal < C)
@@ -289,7 +289,7 @@ namespace GasSizing
                 }
                 #endregion
 
-                #region Calculated valve flow rate, CcalÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢unit : m3/h
+                #region Calculated valve flow rate, CcalÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢unit : m3/h
                 Ccal = Qs / N22 / Fr / Y * Math.Sqrt(M * T1 / (P1 + P2) / DeltaP);
                 Console.WriteLine("Kv = " + Ccal);
                 if (Ccal < C)
