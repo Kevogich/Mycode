@@ -1,6 +1,6 @@
 
 public class UnitConvention {
-    Double i =1.0 ; // input Value
+    Double i = 1.0; // input Value
     String Unit1 = ""; // input unit
     String Unit2 = ""; // output unit
 
@@ -304,10 +304,10 @@ public class UnitConvention {
                 j = i / 1.204;
                 break;
             case "Kg/m32Lb/ft3":
-                j = i * 0.036127292;
+                j = i * 0.0624279655;// updated by zqy at 20:25PM, 20190709
                 break;
             case "Kg/m32Lb/in3":
-                j = i * 0.0624279655;
+                j = i / 27675; // updated by zqy at 20:25PM, 20190709
                 break;
 
             case "Lb/gal(US)2Kg/m3":
@@ -320,10 +320,10 @@ public class UnitConvention {
                 j = i / 1.204 * 119.826427;
                 break;
             case "Lb/gal(US)2Lb/ft3":
-                j = i * 0.036127292 * 119.826427;
+                j = i * 0.0624279655 * 119.826427; // updated by zqy at 20:25PM, 20190709
                 break;
             case "Lb/gal(US)2Lb/in3":
-                j = i * 0.0624279655 * 119.826427;
+                j = i / 27675 * 119.826427; // updated by zqy at 20:25PM, 20190709
                 break;
 
             case "SG(Liquid)2Kg/m3":
@@ -336,10 +336,10 @@ public class UnitConvention {
                 j = i / 0.001204;
                 break;
             case "SG(Liquid)2Lb/ft3":
-                j = i * 36.127292;
+                j = i * 62.4279655; // updated by zqy at 20:25PM, 20190709
                 break;
             case "SG(Liquid)2Lb/in3":
-                j = i * 62.4279655;
+                j = i / 27.675; // updated by zqy at 20:25PM, 20190709
                 break;
 
             case "SG(Gas)2Kg/m3":
@@ -352,42 +352,42 @@ public class UnitConvention {
                 j = i * 0.001204;
                 break;
             case "SG(Gas)2Lb/ft3":
-                j = i * 36.127292 * 0.001204;
+                j = i * 62.4279655 * 0.001204;// updated by zqy at 20:25PM, 20190709
                 break;
             case "SG(Gas)2Lb/in3":
-                j = i * 62.4279655 * 0.001204;
+                j = i / 27.675 * 0.001204;// updated by zqy at 20:25PM, 20190709
                 break;
 
             case "Lb/ft32Lb/gal(US)":
-                j = i / 119.826427 / 0.036127292;
+                j = i / 119.826427 / 0.0624279655;// updated by zqy at 20:25PM, 20190709
                 break;
             case "Lb/ft32SG(Liquid)":
-                j = i / 1000 / 0.036127292;
+                j = i / 1000 / 0.0624279655;// updated by zqy at 20:25PM, 20190709
                 break;
             case "Lb/ft32SG(Gas)":
-                j = i / 1.204 / 0.036127292;
+                j = i / 1.204 / 0.0624279655;// updated by zqy at 20:25PM, 20190709
                 break;
             case "Lb/ft32Kg/m3":
-                j = i / 0.036127292;
+                j = i / 0.0624279655;// updated by zqy at 20:25PM, 20190709
                 break;
             case "Lb/ft32Lb/in3":
-                j = i * 0.0624279655 / 0.036127292;
+                j = i / 1728;// updated by zqy at 20:25PM, 20190709
                 break;
 
             case "Lb/in32Lb/gal(US)":
-                j = i / 119.826427 / 0.0624279655;
+                j = i * 213;// updated by zqy at 20:25PM, 20190709
                 break;
             case "Lb/in32SG(Liquid)":
-                j = i / 1000 / 0.0624279655;
+                j = i / 27.675;// updated by zqy at 20:25PM, 20190709
                 break;
             case "Lb/in32SG(Gas)":
-                j = i / 1.204 / 0.0624279655;
+                j = i / 22986;// updated by zqy at 20:25PM, 20190709
                 break;
             case "Lb/in32Lb/ft3":
-                j = i * 0.036127292 / 0.0624279655;
+                j = i * 1728;// updated by zqy at 20:25PM, 20190709
                 break;
             case "Lb/in32Kg/m3":
-                j = i / 0.0624279655;
+                j = i * 27675;// updated by zqy at 20:25PM, 20190709
                 break;
             default:
                 j = 0.0;
