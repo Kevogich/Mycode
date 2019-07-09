@@ -37,6 +37,12 @@ namespace GasSizing {
             double Ps = 101.325; // unit kPa
             double v = .000002526; //Kinematic viscosity, unit: m2/s;
             double M = 18.02; //Molecular mass;
+            double Sg=0;
+            if(Sg!=0){
+                M=Sg*28.9647;
+            }else{
+                M = 18.02;
+            }
             double Gama = 1.33; //Specific heat ration
 
             string Manufacturer;
