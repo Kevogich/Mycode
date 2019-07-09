@@ -1,6 +1,3 @@
-///<summary>
-/// case 2 of gas sizing from green book
-///</summary>
 using System;
 using System.IO;
 // Used for Gas flow sizing
@@ -11,12 +8,12 @@ namespace GasSizing
         static void Main(string[] args)
         {
             #region Data Input
-            // double Qs = 169900; //Flow rate unit:m3/h
-            double W = 125000;//Qs * .04475 * 44.01; //Mass flow rate W=Qs*N8/N9*M unit:Kg/h
+            double Qs = 169900; //Flow rate unit:m3/h
+            double W = 0;//Qs * .04475 * 44.01; //Mass flow rate W=Qs*N8/N9*M unit:Kg/h
 
-            double P1 = 3549; //Inlet Pressure unit:kPa;
-            double P2 = 1825; //Outlet pressure unit:kPa;
-            double T1 = 260; //Inlet temperature, unit:K;
+            double P1 = 1480; //Inlet Pressure unit:kPa;
+            double P2 = 446; //Outlet pressure unit:kPa;
+            double T1 = 289; //Inlet temperature, unit:K;
             double D1 = 200; //Inlet pipe size, unit:mm
             double D2 = 200; //Outlet pipe size, unit:mm
 
@@ -28,7 +25,9 @@ namespace GasSizing
             double Ts = 273; // unit K
             double Ps = 101.325; // unit kPa
             double v = .000002526; //Kinematic viscosity, unit: m2/s;
-            double M = 18.02; //Molecular mass;
+            double M = 17.38; //Molecular mass;
+            double Gama = 1.31; //Specific heat ration
+
             string Manufacturer;
             string BodyStyle; //Globe is default;
             string ValveType; //5100 or 5400;
