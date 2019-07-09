@@ -1,0 +1,11 @@
+F:\Mycode\A02_gasSizing\bin\Debug\netcoreapp2.2\A02_gasSizing.deps.json
+F:\Mycode\A02_gasSizing\bin\Debug\netcoreapp2.2\A02_gasSizing.runtimeconfig.json
+F:\Mycode\A02_gasSizing\bin\Debug\netcoreapp2.2\A02_gasSizing.runtimeconfig.dev.json
+F:\Mycode\A02_gasSizing\bin\Debug\netcoreapp2.2\A02_gasSizing.dll
+F:\Mycode\A02_gasSizing\bin\Debug\netcoreapp2.2\A02_gasSizing.pdb
+F:\Mycode\A02_gasSizing\obj\Debug\netcoreapp2.2\A02_gasSizing.csprojAssemblyReference.cache
+F:\Mycode\A02_gasSizing\obj\Debug\netcoreapp2.2\A02_gasSizing.csproj.CoreCompileInputs.cache
+F:\Mycode\A02_gasSizing\obj\Debug\netcoreapp2.2\A02_gasSizing.AssemblyInfoInputs.cache
+F:\Mycode\A02_gasSizing\obj\Debug\netcoreapp2.2\A02_gasSizing.AssemblyInfo.cs
+F:\Mycode\A02_gasSizing\obj\Debug\netcoreapp2.2\A02_gasSizing.dll
+F:\Mycode\A02_gasSizing\obj\Debug\netcoreapp2.2\A02_gasSizing.pdb
