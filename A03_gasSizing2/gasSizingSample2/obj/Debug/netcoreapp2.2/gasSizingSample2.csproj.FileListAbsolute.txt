@@ -9,3 +9,14 @@ F:\Mycode\A03_gasSizing2\gasSizingSample2\obj\Debug\netcoreapp2.2\gasSizingSampl
 F:\Mycode\A03_gasSizing2\gasSizingSample2\obj\Debug\netcoreapp2.2\gasSizingSample2.AssemblyInfo.cs
 F:\Mycode\A03_gasSizing2\gasSizingSample2\obj\Debug\netcoreapp2.2\gasSizingSample2.dll
 F:\Mycode\A03_gasSizing2\gasSizingSample2\obj\Debug\netcoreapp2.2\gasSizingSample2.pdb
+Z:\Mycode\A03_gasSizing2\gasSizingSample2\bin\Debug\netcoreapp2.2\gasSizingSample2.deps.json
+Z:\Mycode\A03_gasSizing2\gasSizingSample2\bin\Debug\netcoreapp2.2\gasSizingSample2.runtimeconfig.json
+Z:\Mycode\A03_gasSizing2\gasSizingSample2\bin\Debug\netcoreapp2.2\gasSizingSample2.runtimeconfig.dev.json
+Z:\Mycode\A03_gasSizing2\gasSizingSample2\bin\Debug\netcoreapp2.2\gasSizingSample2.dll
+Z:\Mycode\A03_gasSizing2\gasSizingSample2\bin\Debug\netcoreapp2.2\gasSizingSample2.pdb
+Z:\Mycode\A03_gasSizing2\gasSizingSample2\obj\Debug\netcoreapp2.2\gasSizingSample2.csprojAssemblyReference.cache
+Z:\Mycode\A03_gasSizing2\gasSizingSample2\obj\Debug\netcoreapp2.2\gasSizingSample2.csproj.CoreCompileInputs.cache
+Z:\Mycode\A03_gasSizing2\gasSizingSample2\obj\Debug\netcoreapp2.2\gasSizingSample2.AssemblyInfoInputs.cache
+Z:\Mycode\A03_gasSizing2\gasSizingSample2\obj\Debug\netcoreapp2.2\gasSizingSample2.AssemblyInfo.cs
+Z:\Mycode\A03_gasSizing2\gasSizingSample2\obj\Debug\netcoreapp2.2\gasSizingSample2.dll
+Z:\Mycode\A03_gasSizing2\gasSizingSample2\obj\Debug\netcoreapp2.2\gasSizingSample2.pdb
