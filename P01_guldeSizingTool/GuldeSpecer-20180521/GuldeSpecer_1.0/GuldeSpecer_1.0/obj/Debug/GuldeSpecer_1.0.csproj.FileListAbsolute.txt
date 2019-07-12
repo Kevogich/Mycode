@@ -1,0 +1,23 @@
+C:\Users\Bruceliu\AppData\Local\Temporary Projects\GuldeSpecer_1.0\bin\Debug\GuldeSpecer_1.0.exe.config
+D:\BOM Maker\GuldeSpecer-20180521\GuldeSpecer_1.0\GuldeSpecer_1.0\bin\Debug\GuldeSpecer_1.0.exe.config
+D:\BOM Maker\GuldeSpecer-20180521\GuldeSpecer_1.0\GuldeSpecer_1.0\bin\Debug\GuldeSpecer_1.0.exe
+D:\BOM Maker\GuldeSpecer-20180521\GuldeSpecer_1.0\GuldeSpecer_1.0\bin\Debug\GuldeSpecer_1.0.pdb
+D:\BOM Maker\GuldeSpecer-20180521\GuldeSpecer_1.0\GuldeSpecer_1.0\obj\Debug\GuldeSpecer_1.0.csprojResolveAssemblyReference.cache
+D:\BOM Maker\GuldeSpecer-20180521\GuldeSpecer_1.0\GuldeSpecer_1.0\obj\Debug\GuldeSpecer_1._0.Frm_GetSpec.resources
+D:\BOM Maker\GuldeSpecer-20180521\GuldeSpecer_1.0\GuldeSpecer_1.0\obj\Debug\GuldeSpecer_1._0.Frm_Main.resources
+D:\BOM Maker\GuldeSpecer-20180521\GuldeSpecer_1.0\GuldeSpecer_1.0\obj\Debug\GuldeSpecer_1._0.Properties.Resources.resources
+D:\BOM Maker\GuldeSpecer-20180521\GuldeSpecer_1.0\GuldeSpecer_1.0\obj\Debug\GuldeSpecer_1.0.csproj.GenerateResource.Cache
+D:\BOM Maker\GuldeSpecer-20180521\GuldeSpecer_1.0\GuldeSpecer_1.0\obj\Debug\GuldeSpecer_1.0.exe
+D:\BOM Maker\GuldeSpecer-20180521\GuldeSpecer_1.0\GuldeSpecer_1.0\obj\Debug\GuldeSpecer_1.0.pdb
+D:\BOM Maker\GuldeSpecer-20180521\GuldeSpecer_1.0\GuldeSpecer_1.0\obj\Debug\GuldeSpecer_1.0.csproj.ResolveComReference.cache
+D:\BOM Maker\GuldeSpecer-20180521\GuldeSpecer_1.0\GuldeSpecer_1.0\obj\Debug\GuldeSpecer_1._0.Frm_GetBOMNO.resources
+D:\4 Projects\1806 Spectool\GuldeSpecer-20180521\GuldeSpecer_1.0\GuldeSpecer_1.0\obj\Debug\GuldeSpecer_1.0.csprojAssemblyReference.cache
+D:\4 Projects\1806 Spectool\GuldeSpecer-20180521\GuldeSpecer_1.0\GuldeSpecer_1.0\obj\Debug\GuldeSpecer_1.0.csproj.ResolveComReference.cache
+D:\4 Projects\1806 Spectool\GuldeSpecer-20180521\GuldeSpecer_1.0\GuldeSpecer_1.0\obj\Debug\GuldeSpecer_1._0.Frm_GetBOMNO.resources
+D:\4 Projects\1806 Spectool\GuldeSpecer-20180521\GuldeSpecer_1.0\GuldeSpecer_1.0\obj\Debug\GuldeSpecer_1._0.Frm_GetSpec.resources
+D:\4 Projects\1806 Spectool\GuldeSpecer-20180521\GuldeSpecer_1.0\GuldeSpecer_1.0\obj\Debug\GuldeSpecer_1._0.Frm_Main.resources
+D:\4 Projects\1806 Spectool\GuldeSpecer-20180521\GuldeSpecer_1.0\GuldeSpecer_1.0\obj\Debug\GuldeSpecer_1._0.Properties.Resources.resources
+D:\4 Projects\1806 Spectool\GuldeSpecer-20180521\GuldeSpecer_1.0\GuldeSpecer_1.0\obj\Debug\GuldeSpecer_1.0.csproj.GenerateResource.cache
+D:\4 Projects\1806 Spectool\GuldeSpecer-20180521\GuldeSpecer_1.0\GuldeSpecer_1.0\obj\Debug\GuldeSpecer_1.0.csproj.CoreCompileInputs.cache
+D:\4 Projects\1806 Spectool\GuldeSpecer-20180521\GuldeSpecer_1.0\GuldeSpecer_1.0\obj\Debug\GuldeSpecer_1.0.exe
+D:\4 Projects\1806 Spectool\GuldeSpecer-20180521\GuldeSpecer_1.0\GuldeSpecer_1.0\obj\Debug\GuldeSpecer_1.0.pdb
