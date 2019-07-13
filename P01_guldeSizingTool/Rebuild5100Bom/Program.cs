@@ -44,6 +44,12 @@ namespace Rebuild5100Bom
                 double maxCv = 0;
                 string balanced = "NA";
                 string flowChar = "NA";
+                string seatRingMaterial = "NA";
+                string shutOff = "NA";
+                string packing = "NA";
+                string actuatorType = "NA";
+                string actuatorSize = "NA";
+                string actuatorATO = "NA";
 
                 switch (Number1)
                 {
@@ -205,9 +211,40 @@ namespace Rebuild5100Bom
                     default: balanced = "NA"; flowChar = "NA"; break;
                 }
 
+                switch (Number6)
+                {
+                    case "1": seatRingMaterial = "316 SST"; shutOff = "ANSI CL IV"; break;
+                    case "4": seatRingMaterial = "316 SST"; shutOff = "ANSI CL V"; break;
+                    case "2": seatRingMaterial = "316 SST/CoCr-A"; shutOff = "ANSI CL IV"; break;
+                    case "5": seatRingMaterial = "316 SST/CoCr-A"; shutOff = "ANSI CL V"; break;
+                    case "6": seatRingMaterial = "316L SST"; shutOff = "ANSI CL IV"; break;
+                    case "9": seatRingMaterial = "316L SST"; shutOff = "ANSI CL V"; break;
+                    case "8": seatRingMaterial = "316L SST/CoCr-A"; shutOff = "ANSI CL IV"; break;
+                    case "B": seatRingMaterial = "316L SST"; shutOff = "ANSI CL V"; break;
+                    default: seatRingMaterial = "NA"; break;
+                }
+
+                switch (Number7)
+                {
+                    case "P": packing = "PTFE"; break;
+                    case "U": packing = "Graphite ULF"; break;
+                    default: packing = "NA"; break;
+                }
+
+                switch (Number8)
+                {
+                    case "A": actuatorType = "225"; actuatorType = "20"; actuatorATO = "ATO"; break;
+                    case "D": actuatorType = "225"; actuatorType = "20"; actuatorATO = "ATC"; break;
+                    case "B": actuatorType = "750"; actuatorType = "20"; actuatorATO = "ATO"; break;
+                    case "E": actuatorType = "750"; actuatorType = "20"; actuatorATO = "ATC"; break;
+                    case "C": actuatorType = "750"; actuatorType = "40"; actuatorATO = "ATO"; break;
+                    case "F": actuatorType = "750"; actuatorType = "40"; actuatorATO = "ATC"; break;
+                    default: actuatorType = "NA"; actuatorType = "NA"; actuatorATO = "NA"; break;
+                }
 
             }
         }
+
     }
 
     class epplusCore
