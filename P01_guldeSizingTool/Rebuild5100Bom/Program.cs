@@ -37,11 +37,13 @@ namespace Rebuild5100Bom
                 // Console.WriteLine(firstNumber);
                 Console.WriteLine(bomNumber + ":" + Number1 + ":" + Number2 + ":" + Number3 + ":" + Number4 + ":" + Number5 + ":" + Number6 + ":" + Number7 + ":" + Number8 + ":" + Number9 + ":" + Number10 + ":" + Number11);
 
-                string valveSize;
-                string valveBodySize;
-                string valveRating;
-                string valvePort;
-                double maxCv;
+                string valveSize = "NA";
+                string valveBodySize = "NA";
+                string valveRating = "NA";
+                string valvePort = "NA";
+                double maxCv = 0;
+                string balanced = "NA";
+                string flowChar = "NA";
 
                 switch (Number1)
                 {
@@ -69,7 +71,7 @@ namespace Rebuild5100Bom
                     case "S": valveBodySize = "CF8"; break;
                     case "T": valveBodySize = "CF3"; break;
                     case "L": valveBodySize = "LCC"; break;
-                    default: valveBodySize = "NA"; break;
+                    default: valveBodySize = "NA"; maxCv = 0; break;
                 }
 
                 switch (Number3)
@@ -78,7 +80,7 @@ namespace Rebuild5100Bom
                     case "2": valveRating = "ANSL CL 300"; break;
                     case "4": valveRating = "PN 16"; break;
                     case "5": valveRating = "PN 25"; break;
-                    default: valveRating = "NA"; break;
+                    default: valveRating = "NA"; maxCv = 0; break;
                 }
 
                 switch (valveSize)
@@ -90,11 +92,11 @@ namespace Rebuild5100Bom
                             {
                                 case "1": valvePort = "9.5"; maxCv = 3.338; break;
                                 case "2": valvePort = "9.5"; maxCv = 0; break;
-                                case "3": valvePort = "4.8"; maxCv = 0.785; break;
-                                case "4": valvePort = "4.8"; maxCv = 0.294; break;
-                                case "5": valvePort = "4.8"; maxCv = 0.139; break;
-                                case "6": valvePort = "4.8"; maxCv = 0.0389; break;
-                                default: valvePort = "NA"; break;
+                                case "3": valvePort = "4.8(4)"; maxCv = 0.785; break;
+                                case "4": valvePort = "4.8(3)"; maxCv = 0.294; break;
+                                case "5": valvePort = "4.8(2)"; maxCv = 0.139; break;
+                                case "6": valvePort = "4.8(1)"; maxCv = 0.0389; break;
+                                default: valvePort = "NA"; maxCv = 0; break;
                             }
                         }
                         break;
@@ -107,16 +109,103 @@ namespace Rebuild5100Bom
                                 case "1": valvePort = "14"; maxCv = 0; break;
                                 case "2": valvePort = "9.5"; maxCv = 3.338; break;
                                 case "3": valvePort = "9.5"; maxCv = 0; break;
-                                case "4": valvePort = "4.8"; maxCv = 0.785; break;
-                                case "5": valvePort = "4.8"; maxCv = 0.294; break;
-                                case "6": valvePort = "4.8"; maxCv = 0.139; break;
-                                case "7": valvePort = "4.8"; maxCv = 0.0389; break;
-                                default: valvePort = "NA"; break;
+                                case "4": valvePort = "4.8(4)"; maxCv = 0.785; break;
+                                case "5": valvePort = "4.8(3)"; maxCv = 0.294; break;
+                                case "6": valvePort = "4.8(2)"; maxCv = 0.139; break;
+                                case "7": valvePort = "4.8(1)"; maxCv = 0.0389; break;
+                                default: valvePort = "NA"; maxCv = 0; break;
 
                             }
                         }
                         break;
+
+
+                    case "NPS 1":
+                    case "DN 25":
+                        {
+                            switch (Number4)
+                            {
+                                case "1": valvePort = "22"; maxCv = 0; break;
+                                case "2": valvePort = "14"; maxCv = 0; break;
+                                case "3": valvePort = "9.5"; maxCv = 3.338; break;
+                                case "4": valvePort = "9.5"; maxCv = 0; break;
+                                case "5": valvePort = "4.8(4)"; maxCv = 0.785; break;
+                                case "6": valvePort = "4.8(3)"; maxCv = 0.294; break;
+                                case "7": valvePort = "4.8(2)"; maxCv = 0.139; break;
+                                case "8": valvePort = "4.8(1)"; maxCv = 0.0389; break;
+                                default: valvePort = "NA"; maxCv = 0; break;
+
+                            }
+                        }
+                        break;
+                    case "NPS 1-1/2":
+                    case "DN 40":
+                        {
+                            switch (Number4)
+                            {
+                                case "1": valvePort = "36"; maxCv = 0; break;
+                                case "2": valvePort = "22"; maxCv = 0; break;
+                                case "3": valvePort = "14"; maxCv = 0; break;
+                                default: valvePort = "NA"; maxCv = 0; break;
+                            }
+                        }; break;
+                    case "NPS 2":
+                    case "DN 50":
+                        {
+                            switch (Number4)
+                            {
+                                case "1": valvePort = "46"; maxCv = 0; break;
+                                case "2": valvePort = "36"; maxCv = 0; break;
+                                case "3": valvePort = "22"; maxCv = 0; break;
+                                default: valvePort = "NA"; maxCv = 0; break;
+                            }
+                        }; break;
+                    case "NPS 3":
+                    case "DN 80":
+                        {
+                            switch (Number4)
+                            {
+                                case "1": valvePort = "70"; maxCv = 0; break;
+                                case "2": valvePort = "46"; maxCv = 0; break;
+                                case "3": valvePort = "36"; maxCv = 0; break;
+                                default: valvePort = "NA"; maxCv = 0; break;
+                            }
+                        }; break;
+                    case "NPS 4":
+                    case "DN 100":
+                        {
+                            switch (Number4)
+                            {
+                                case "1": valvePort = "90"; maxCv = 0; break;
+                                case "2": valvePort = "70"; maxCv = 0; break;
+                                case "3": valvePort = "46"; maxCv = 0; break;
+                                default: valvePort = "NA"; maxCv = 0; break;
+                            }
+                        }; break;
+                    case "NPS 6":
+                    case "DN 150":
+                        {
+                            switch (Number4)
+                            {
+                                case "1": valvePort = "136"; maxCv = 0; break;
+                                case "2": valvePort = "90"; maxCv = 0; break;
+                                case "3": valvePort = "70"; maxCv = 0; break;
+                                default: valvePort = "NA"; maxCv = 0; break;
+                            }
+                        }; break;
+                    default: valvePort = "NA"; maxCv = 0; break;
                 }
+
+                switch (Number5)
+                {
+                    case "L": balanced = "Unbalanced"; flowChar = "Linear"; break;
+                    case "E": balanced = "Unbalanced"; flowChar = "EqualPcentage"; break;
+                    case "X": balanced = "Balanced"; flowChar = "Linear"; break;
+                    case "D": balanced = "Balanced"; flowChar = "EqualPcentage"; break;
+                    default: balanced = "NA"; flowChar = "NA"; break;
+                }
+
+
             }
         }
     }
