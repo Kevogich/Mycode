@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\MyCode\\P01_guldeSizingTool\\Rebuild5100Bom\\Rebuild5100Bom.csproj": {}
+    "Z:\\MyCode\\P01_guldeSizingTool\\rebuild5100Bom\\Rebuild5100Bom.csproj": {}
   },
   "projects": {
-    "Z:\\MyCode\\P01_guldeSizingTool\\Rebuild5100Bom\\Rebuild5100Bom.csproj": {
+    "Z:\\MyCode\\P01_guldeSizingTool\\rebuild5100Bom\\Rebuild5100Bom.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\MyCode\\P01_guldeSizingTool\\Rebuild5100Bom\\Rebuild5100Bom.csproj",
+        "projectUniqueName": "Z:\\MyCode\\P01_guldeSizingTool\\rebuild5100Bom\\Rebuild5100Bom.csproj",
         "projectName": "Rebuild5100Bom",
-        "projectPath": "Z:\\MyCode\\P01_guldeSizingTool\\Rebuild5100Bom\\Rebuild5100Bom.csproj",
+        "projectPath": "Z:\\MyCode\\P01_guldeSizingTool\\rebuild5100Bom\\Rebuild5100Bom.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "Z:\\MyCode\\P01_guldeSizingTool\\Rebuild5100Bom\\obj\\",
+        "outputPath": "Z:\\MyCode\\P01_guldeSizingTool\\rebuild5100Bom\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "EPPlus.Core": {
+              "target": "Package",
+              "version": "[1.5.4, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",

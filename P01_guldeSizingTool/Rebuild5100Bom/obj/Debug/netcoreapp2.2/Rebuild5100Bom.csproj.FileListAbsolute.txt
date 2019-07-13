@@ -1,0 +1,11 @@
+Z:\MyCode\P01_guldeSizingTool\rebuild5100Bom\bin\Debug\netcoreapp2.2\Rebuild5100Bom.deps.json
+Z:\MyCode\P01_guldeSizingTool\rebuild5100Bom\bin\Debug\netcoreapp2.2\Rebuild5100Bom.runtimeconfig.json
+Z:\MyCode\P01_guldeSizingTool\rebuild5100Bom\bin\Debug\netcoreapp2.2\Rebuild5100Bom.runtimeconfig.dev.json
+Z:\MyCode\P01_guldeSizingTool\rebuild5100Bom\bin\Debug\netcoreapp2.2\Rebuild5100Bom.dll
+Z:\MyCode\P01_guldeSizingTool\rebuild5100Bom\bin\Debug\netcoreapp2.2\Rebuild5100Bom.pdb
+Z:\MyCode\P01_guldeSizingTool\rebuild5100Bom\obj\Debug\netcoreapp2.2\Rebuild5100Bom.csprojAssemblyReference.cache
+Z:\MyCode\P01_guldeSizingTool\rebuild5100Bom\obj\Debug\netcoreapp2.2\Rebuild5100Bom.csproj.CoreCompileInputs.cache
+Z:\MyCode\P01_guldeSizingTool\rebuild5100Bom\obj\Debug\netcoreapp2.2\Rebuild5100Bom.AssemblyInfoInputs.cache
+Z:\MyCode\P01_guldeSizingTool\rebuild5100Bom\obj\Debug\netcoreapp2.2\Rebuild5100Bom.AssemblyInfo.cs
+Z:\MyCode\P01_guldeSizingTool\rebuild5100Bom\obj\Debug\netcoreapp2.2\Rebuild5100Bom.dll
+Z:\MyCode\P01_guldeSizingTool\rebuild5100Bom\obj\Debug\netcoreapp2.2\Rebuild5100Bom.pdb
