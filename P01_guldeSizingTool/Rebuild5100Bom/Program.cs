@@ -38,7 +38,7 @@ namespace Rebuild5100Bom
                 Console.WriteLine(bomNumber + "," + Number1 + "," + Number2 + "," + Number3 + "," + Number4 + "," + Number5 + "," + Number6 + "," + Number7 + "," + Number8 + "," + Number9 + "," + Number10 + "," + Number11);
 
                 string valveSize = "NA";
-                string valveBodySize = "NA";
+                string valveBodyMaterial = "NA";
                 string valveRating = "NA";
                 string valvePort = "NA";
                 double maxCv = 0;
@@ -50,6 +50,9 @@ namespace Rebuild5100Bom
                 string actuatorType = "NA";
                 string actuatorSize = "NA";
                 string actuatorATO = "NA";
+                string air ="NA";
+                string mounting ="NA";
+                string bonnet = "NA";
 
                 switch (Number1)
                 {
@@ -73,11 +76,11 @@ namespace Rebuild5100Bom
 
                 switch (Number2)
                 {
-                    case "W": valveBodySize = "WCC"; break;
-                    case "S": valveBodySize = "CF8"; break;
-                    case "T": valveBodySize = "CF3"; break;
-                    case "L": valveBodySize = "LCC"; break;
-                    default: valveBodySize = "NA"; maxCv = 0; break;
+                    case "W": valveBodyMaterial = "WCC"; break;
+                    case "S": valveBodyMaterial = "CF8"; break;
+                    case "T": valveBodyMaterial = "CF3"; break;
+                    case "L": valveBodyMaterial = "LCC"; break;
+                    default: valveBodyMaterial = "NA"; maxCv = 0; break;
                 }
 
                 switch (Number3)
@@ -249,6 +252,23 @@ namespace Rebuild5100Bom
                     case "C": actuatorType = "750"; actuatorType = "40"; actuatorATO = "ATO"; break;
                     case "F": actuatorType = "750"; actuatorType = "40"; actuatorATO = "ATC"; break;
                     default: actuatorType = "NA"; actuatorType = "NA"; actuatorATO = "NA"; break;
+                }
+
+                switch(Number9){
+                    case "L": air = "2 Bar";mounting ="NA"; break;
+                    case "M": air = "3 Bar";mounting ="NA"; break;
+                    case "H": air = "4 Bar";mounting ="Side Mounted"; break;
+                    case "T": air = "4 Bar";mounting ="Top Mounted"; break;
+                    case "N": air = "4 Bar";mounting ="NA"; break;
+                    default: air = "4 Bar";mounting ="NA"; break;
+                }
+
+                switch(Number10){
+                    case "1": bonnet = "High Temp Extenstion Bonnet"; break;
+                    case "2": bonnet = "Low Temp Extenstion Bonnet"; break;
+                    case "3": bonnet = "Bellows Bonnet"; break;
+                    case "4": bonnet = "New High Temp Bonnet"; break;
+                    default: bonnet ="NA"; break;
                 }
 
             }
