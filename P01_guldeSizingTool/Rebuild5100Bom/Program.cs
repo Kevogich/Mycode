@@ -35,7 +35,7 @@ namespace Rebuild5100Bom
                 string Number11 = bomNumber.Substring(10, 1);
 
                 // Console.WriteLine(firstNumber);
-                Console.WriteLine(bomNumber + ":" + Number1 + ":" + Number2 + ":" + Number3 + ":" + Number4 + ":" + Number5 + ":" + Number6 + ":" + Number7 + ":" + Number8 + ":" + Number9 + ":" + Number10 + ":" + Number11);
+                Console.WriteLine(bomNumber + "," + Number1 + "," + Number2 + "," + Number3 + "," + Number4 + "," + Number5 + "," + Number6 + "," + Number7 + "," + Number8 + "," + Number9 + "," + Number10 + "," + Number11);
 
                 string valveSize = "NA";
                 string valveBodySize = "NA";
@@ -214,13 +214,22 @@ namespace Rebuild5100Bom
                 switch (Number6)
                 {
                     case "1": seatRingMaterial = "316 SST"; shutOff = "ANSI CL IV"; break;
-                    case "4": seatRingMaterial = "316 SST"; shutOff = "ANSI CL V"; break;
                     case "2": seatRingMaterial = "316 SST/CoCr-A"; shutOff = "ANSI CL IV"; break;
+                    case "3": seatRingMaterial = "316 SST/PTFE"; shutOff = "ANSI CL VI"; break;
+                    case "4": seatRingMaterial = "316 SST"; shutOff = "ANSI CL V"; break;
                     case "5": seatRingMaterial = "316 SST/CoCr-A"; shutOff = "ANSI CL V"; break;
                     case "6": seatRingMaterial = "316L SST"; shutOff = "ANSI CL IV"; break;
-                    case "9": seatRingMaterial = "316L SST"; shutOff = "ANSI CL V"; break;
+                    case "7": seatRingMaterial = "316L SST"; shutOff = "ANSI CL VI"; break;
                     case "8": seatRingMaterial = "316L SST/CoCr-A"; shutOff = "ANSI CL IV"; break;
+                    case "9": seatRingMaterial = "316L SST"; shutOff = "ANSI CL V"; break;
+                    case "X": seatRingMaterial = "304L SST"; shutOff = "ANSI CL IV"; break;
+                    case "A": seatRingMaterial = "CF3M SST/PTFE"; shutOff = "ANSI CL VI"; break;
                     case "B": seatRingMaterial = "316L SST"; shutOff = "ANSI CL V"; break;
+                    case "C": seatRingMaterial = "316 SST"; shutOff = "ANSI CL VI"; break;
+                    case "D": seatRingMaterial = "316L SST"; shutOff = "ANSI CL VI"; break;
+                    case "E": seatRingMaterial = "304L SST"; shutOff = "ANSI CL IV"; break;
+                    case "F": seatRingMaterial = "304L SST"; shutOff = "ANSI CL IV"; break;
+                    case "J": seatRingMaterial = "304L SST/CoCr-A"; shutOff = "ANSI CL V"; break;
                     default: seatRingMaterial = "NA"; break;
                 }
 
