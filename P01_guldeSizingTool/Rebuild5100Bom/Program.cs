@@ -50,8 +50,8 @@ namespace Rebuild5100Bom
                 string actuatorType = "NA";
                 string actuatorSize = "NA";
                 string actuatorATO = "NA";
-                string air ="NA";
-                string mounting ="NA";
+                string air = "NA";
+                string mounting = "NA";
                 string bonnet = "NA";
 
                 switch (Number1)
@@ -254,22 +254,27 @@ namespace Rebuild5100Bom
                     default: actuatorType = "NA"; actuatorType = "NA"; actuatorATO = "NA"; break;
                 }
 
-                switch(Number9){
-                    case "L": air = "2 Bar";mounting ="NA"; break;
-                    case "M": air = "3 Bar";mounting ="NA"; break;
-                    case "H": air = "4 Bar";mounting ="Side Mounted"; break;
-                    case "T": air = "4 Bar";mounting ="Top Mounted"; break;
-                    case "N": air = "4 Bar";mounting ="NA"; break;
-                    default: air = "4 Bar";mounting ="NA"; break;
+                switch (Number9)
+                {
+                    case "L": air = "2 Bar"; mounting = "NA"; break;
+                    case "M": air = "3 Bar"; mounting = "NA"; break;
+                    case "H": air = "4 Bar"; mounting = "Side Mounted"; break;
+                    case "T": air = "4 Bar"; mounting = "Top Mounted"; break;
+                    case "N": air = "4 Bar"; mounting = "NA"; break;
+                    default: air = "4 Bar"; mounting = "NA"; break;
                 }
 
-                switch(Number10){
+                switch (Number10)
+                {
                     case "1": bonnet = "High Temp Extenstion Bonnet"; break;
                     case "2": bonnet = "Low Temp Extenstion Bonnet"; break;
                     case "3": bonnet = "Bellows Bonnet"; break;
                     case "4": bonnet = "New High Temp Bonnet"; break;
-                    default: bonnet ="NA"; break;
+                    default: bonnet = "NA"; break;
                 }
+
+                string newBom = valveSize + "," + valveBodyMaterial + "," + valveRating + "," + valvePort + "," + maxCv + "," + balanced + "," + flowChar + "," + seatRingMaterial + "," + shutOff + "," + packing + "," + actuatorType + "," + actuatorSize + "," + actuatorATO + "," + air + "," + mounting + "," + bonnet;
+                Console.WriteLine(newBom);
 
             }
         }
