@@ -12,7 +12,7 @@ namespace Rebuild5100Bom
         {
             Console.WriteLine("------ Start -----");
             epplusCore eC = new epplusCore();
-            eC.filePath = @"Z:\MyCode\P01_guldeSizingTool\5100Bom.xlsx";
+            eC.filePath = @"f:\MyCode\P01_guldeSizingTool\5100Bom.xlsx";
             eC.workSheet = "Sheet1";
 
             for (int row = 1; row < 10; row++)

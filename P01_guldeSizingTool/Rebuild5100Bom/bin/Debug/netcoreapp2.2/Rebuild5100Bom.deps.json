@@ -772,7 +772,7 @@
     "EPPlus.Core/1.5.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-QGa4Qxm+9ND+tlgsa9bWWQrBZ096shez5DDhkUE5OsPqdQIO8kfMq2dAOBkOE1JrB0ZSFeIIspBoIsb9kCx3iA==",
+      "sha512": "sha512-eaESTJZVOWl8HNFdm9XJ+lLll0VZogJvpFIlLZcAfwofGrB7klJhmoYjl6mfyLJM9btBhSXfO6XHY0hvXUDDVg==",
       "path": "epplus.core/1.5.4",
       "hashPath": "epplus.core.1.5.4.nupkg.sha512"
     },
@@ -821,7 +821,7 @@
     "runtime.native.System.Net.Http/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-guqHgQOK2eUgtJae2VKjNawBn1xjC0hfOt5wASHa60XHbIdCsQlqtvMsFG+3hy7yp88V+gi9fZCjubuDkeakcQ==",
+      "sha512": "sha512-ZVuZJqnnegJhd2k/PtAbbIcZ3aZeITq3sj06oKfMBSfphW3HDmk/t4ObvbOk/JA/swGR0LNqMksAh/f7gpTROg==",
       "path": "runtime.native.system.net.http/4.3.0",
       "hashPath": "runtime.native.system.net.http.4.3.0.nupkg.sha512"
     },
@@ -856,7 +856,7 @@
     "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Kh9W4agE0r/hK8AX1LvyQI2NrKHBL8pO0gRoDTdDb0LL6Ta1Z2OtFx3lOaAE0ZpCUc/dt9Wzs3rA7a3IsKdOVA==",
+      "sha512": "sha512-kVXCuMTrTlxq4XOOMAysuNwsXWpYeboGddNGpIgNSZmv1b6r/s/DPk0fYMB7Q5Qo4bY68o48jt4T4y5BVecbCQ==",
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0",
       "hashPath": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512"
     },
@@ -940,7 +940,7 @@
     "System.Data.Common/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lm6E3T5u7BOuEH0u18JpbJHxBfOJPuCyl4Kg1RH10ktYLp5uEEE1xKrHW56/We4SnZpGAuCc9N0MJpSDhTHZGQ==",
+      "sha512": "sha512-OGX4ifHI67s/2KRrXGMmEjmszCptbhWS4BieBdiBPl/8pn0A1xPMx0Gn0dKK0zKtEaelYNh5M7M5lCZL0EA4eA==",
       "path": "system.data.common/4.3.0",
       "hashPath": "system.data.common.4.3.0.nupkg.sha512"
     },
@@ -968,7 +968,7 @@
     "System.Drawing.Common/4.5.0-preview1-25914-04": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xe9fRaplCuFFkqa2FNSuhZrux4ENP6b1sKxcGIqI0en4aEDMHsHQxtIwwkMsvlKDHoFlLcPkvpUefUnttajA8w==",
+      "sha512": "sha512-2jJby4+hzxON5gSOaDaOJZ2J6lIPBJqbWn37souvi+uDtknGFYRi//mUSPbW0Hp5HW2YMMFE6iRHTgc4YPOmuw==",
       "path": "system.drawing.common/4.5.0-preview1-25914-04",
       "hashPath": "system.drawing.common.4.5.0-preview1-25914-04.nupkg.sha512"
     },
@@ -1122,7 +1122,7 @@
     "System.Security.Cryptography.Pkcs/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Ks0AAotG7oPD9WZOW6k2vUQ2I5ZPQLsaVlRdpRh131EIVR5Rgm4qz0koaO4D01NWavD0FYV09Op+3GuzM7zbwA==",
+      "sha512": "sha512-g4FT2YWRIUwGBz/iebpO1YqQ/lcbzx5kQ5UCbhcFBlIeG38WuW/s8RUY01ntxfLZTw8PRPLxDyBxi5JDV5OfGQ==",
       "path": "system.security.cryptography.pkcs/4.3.0",
       "hashPath": "system.security.cryptography.pkcs.4.3.0.nupkg.sha512"
     },
@@ -1241,7 +1241,7 @@
     "System.Xml.XPath.XmlDocument/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-A/uxsWi/Ifzkmd4ArTLISMbfFs6XpRPsXZonrIqyTY70xi8t+mDtvSM5Os0RqyRDobjMBwIDHDL4NOIbkDwf7A==",
+      "sha512": "sha512-91tvfHWHSrYFPolCwWYqbpo1YaoBUCQ3uNZ/O/zr0ev5BnkoATJoie16ywlMVUaXZtfSfNELxhtG3aqpTfwR4w==",
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
     }
