@@ -14,7 +14,7 @@ namespace Rebuild5100Bom {
 
             string newBom = "";
 
-            for (int row = 1; row < 10; row++) {
+            for (int row = 1; row < 63009; row++) {
                 string bomNumber = eC.cv (row, 2); // 获取第二列的每一行的值，也就是B1, B2....
                 if (bomNumber.Length < 10) {
                     bomNumber = bomNumber + "00000";
