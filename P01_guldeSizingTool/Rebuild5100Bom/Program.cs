@@ -14,7 +14,7 @@ namespace Rebuild5100Bom {
 
             string newBom = "";
 
-            for (int row = 1; row < 63009; row++) {
+            for (int row = 1; row < 100; row++) {
                 string bomNumber = eC.cv (row, 2); // 获取第二列的每一行的值，也就是B1, B2....
                 if (bomNumber.Length < 10) {
                     bomNumber = bomNumber + "00000";
@@ -574,8 +574,7 @@ namespace Rebuild5100Bom {
                         bonnet = "NA";
                         break;
                 }
-
-                //Console.WriteLine(newBom);
+                Console.WriteLine(row);
                 newBom +=" \r\n " + valveSize  + "," + valveBodyMaterial + "," + valveRating + "," + valvePort + "," + maxCv + "," + balanced + "," + flowChar + "," + seatRingMaterial + "," + shutOff + "," + packing + "," + actuatorType + "," + actuatorSize + "," + actuatorATO + "," + air + "," + mounting + "," + bonnet;
 
             }
