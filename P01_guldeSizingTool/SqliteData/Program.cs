@@ -14,6 +14,9 @@ namespace SqliteData {
             cmd.Connection = cn;
 
             Console.WriteLine ("--Start--");
+            System.DateTime startTime = System.DateTime.Now; // 开始计时
+            Console.WriteLine("start time: " + startTime.ToString());
+
             string newBom="";
 
             for (int row = 1; row < 63009; row++) {
@@ -58,6 +61,7 @@ namespace SqliteData {
                         string air = "NA";
                         string mounting = "NA";
                         string bonnet = "NA";
+                        string restriceTrim="NA";
 
                         switch (Number1) {
                             case "1":
@@ -97,10 +101,10 @@ namespace SqliteData {
                                 valveSize = "DN 100";
                                 break;
                             case "F":
-                                valveSize = "DN 20";
+                                valveSize = "DN 15";
                                 break;
                             case "H":
-                                valveSize = "DN 15";
+                                valveSize = "DN 20";
                                 break;
                             case "G":
                                 valveSize = "DN 150";
@@ -159,6 +163,7 @@ namespace SqliteData {
                                             break;
                                         case "2":
                                             valvePort = "9.5";
+                                            restriceTrim = "Y";
                                             maxCv = 0;
                                             break;
                                         case "3":
@@ -199,6 +204,7 @@ namespace SqliteData {
                                             break;
                                         case "3":
                                             valvePort = "9.5";
+                                            restriceTrim = "Y";
                                             maxCv = 0;
                                             break;
                                         case "4":
@@ -244,6 +250,7 @@ namespace SqliteData {
                                             break;
                                         case "4":
                                             valvePort = "9.5";
+                                            restriceTrim = "Y";
                                             maxCv = 0;
                                             break;
                                         case "5":
@@ -270,7 +277,7 @@ namespace SqliteData {
                                     }
                                 }
                                 break;
-                            case "NPS 1-1/2":
+                            case "NPS 1 1/2":
                             case "DN 40":
                                 {
                                     switch (Number4) {
@@ -460,7 +467,7 @@ namespace SqliteData {
                                 shutOff = "ANSI CL VI";
                                 break;
                             case "B":
-                                seatRingMaterial = "316L SST";
+                                seatRingMaterial = "316L SST/CoCr-A";
                                 shutOff = "ANSI CL V";
                                 break;
                             case "C":
@@ -591,6 +598,12 @@ namespace SqliteData {
                 // }
             }
             cn.Close ();
+
+            System.DateTime endTime = System.DateTime.Now; // 结束计时
+            Console.WriteLine("end time: " + endTime.ToString());
+            System.TimeSpan ts = endTime - startTime;
+            Console.WriteLine("program run time: " + ts.Milliseconds/100 + " Seconds");
+
             Console.WriteLine ("--End--");
             File.WriteAllText (@"z:/newBom.txt", newBom);
 

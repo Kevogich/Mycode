@@ -1,0 +1,11 @@
+Z:\SqliteData\obj\Debug\netcoreapp2.2\SqliteData.csprojAssemblyReference.cache
+Z:\SqliteData\obj\Debug\netcoreapp2.2\SqliteData.csproj.CoreCompileInputs.cache
+Z:\SqliteData\obj\Debug\netcoreapp2.2\SqliteData.AssemblyInfoInputs.cache
+Z:\SqliteData\obj\Debug\netcoreapp2.2\SqliteData.AssemblyInfo.cs
+Z:\SqliteData\bin\Debug\netcoreapp2.2\SqliteData.deps.json
+Z:\SqliteData\bin\Debug\netcoreapp2.2\SqliteData.runtimeconfig.json
+Z:\SqliteData\bin\Debug\netcoreapp2.2\SqliteData.runtimeconfig.dev.json
+Z:\SqliteData\bin\Debug\netcoreapp2.2\SqliteData.dll
+Z:\SqliteData\bin\Debug\netcoreapp2.2\SqliteData.pdb
+Z:\SqliteData\obj\Debug\netcoreapp2.2\SqliteData.dll
+Z:\SqliteData\obj\Debug\netcoreapp2.2\SqliteData.pdb
