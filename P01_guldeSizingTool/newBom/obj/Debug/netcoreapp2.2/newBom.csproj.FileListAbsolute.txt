@@ -1,0 +1,11 @@
+Z:\newBom\obj\Debug\netcoreapp2.2\newBom.csprojAssemblyReference.cache
+Z:\newBom\obj\Debug\netcoreapp2.2\newBom.csproj.CoreCompileInputs.cache
+Z:\newBom\obj\Debug\netcoreapp2.2\newBom.AssemblyInfoInputs.cache
+Z:\newBom\obj\Debug\netcoreapp2.2\newBom.AssemblyInfo.cs
+Z:\newBom\bin\Debug\netcoreapp2.2\newBom.deps.json
+Z:\newBom\bin\Debug\netcoreapp2.2\newBom.runtimeconfig.json
+Z:\newBom\bin\Debug\netcoreapp2.2\newBom.runtimeconfig.dev.json
+Z:\newBom\bin\Debug\netcoreapp2.2\newBom.dll
+Z:\newBom\bin\Debug\netcoreapp2.2\newBom.pdb
+Z:\newBom\obj\Debug\netcoreapp2.2\newBom.dll
+Z:\newBom\obj\Debug\netcoreapp2.2\newBom.pdb
